@@ -1,0 +1,35 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<h1>Calculadora Manuel Buritica</h1>
+	<form name="calculadora">
+		<input type="textfield" name="valor" value="">
+		<br>
+		<input id="c" type="reset" value="C">
+		<br>
+		<input type="button" value="7" onclick="document.calculadora.valor.value+='7'">
+		<input type="button" value="8" onclick="document.calculadora.valor.value+='8'">
+		<input type="button" value="9" onclick="document.calculadora.valor.value+='9'">
+		<input type="button" value="/" onclick="document.calculadora.valor.value+='/'">
+		<br>
+		<input type="button" value="4" onclick="document.calculadora.valor.value+='4'">
+		<input type="button" value="5" onclick="document.calculadora.valor.value+='5'">
+		<input type="button" value="6" onclick="document.calculadora.valor.value+='6'">
+		<input type="button" value="*" onclick="document.calculadora.valor.value+='*'">
+		<br>
+		<input type="button" value="1" onclick="document.calculadora.valor.value+='1'">
+		<input type="button" value="2" onclick="document.calculadora.valor.value+='2'">
+		<input type="button" value="3" onclick="document.calculadora.valor.value+='3'">
+		<input type="button" value="-" onclick="document.calculadora.valor.value+='-'">
+		<br>
+		<input type="button" value="0" onclick="document.calculadora.valor.value+='0'">
+		<input type="button" value="," onclick="document.calculadora.valor.value+='.'">
+		<input type="button" value="+" onclick="document.calculadora.valor.value+='+'">
+		<input type="button" value="=" onclick="document.calculadora.valor.value=eval(document.calculadora.valor.value)">
+	</form>
+</body>
+</html>

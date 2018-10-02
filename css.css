@@ -1,0 +1,13 @@
+form{
+	border-collapse: collapse;
+}
+h1{
+	color: blue;
+	font-size:70px;
+}
+#c{
+	width:40.3%;
+}
+input[type=button]{
+	text-align: center;
+}
